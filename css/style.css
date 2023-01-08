@@ -8,6 +8,7 @@
   --tertiary-bg-color: #f4f4fd;
   --footer-title-color: #f4f4fd;
   --footer-text-color: #e7e9fc;
+  --header-border-color: #e7e9fc;
 }
 
 /*--------------- Body -----------------*/
@@ -16,6 +17,7 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .list {
@@ -46,6 +48,11 @@ body {
 }
 
 /*--- Header ---*/
+
+.header {
+  background-color: var(--primary-bg-color);
+  border-color: var(--header-border-color);
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -116,6 +123,7 @@ body {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
   border: none;
+  border-radius: 4px;
 }
 
 /* --- Strategy --- */
@@ -214,4 +222,71 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
+}
+
+/* ------------- PORTFOLIO -------------- */
+
+.main {
+}
+.portfolio {
+}
+
+/* --- PORTFOLIO FILTER --- */
+
+.portfolio-filter {
+}
+.portfolio-filter-list {
+}
+.portfolio-filter-item {
+}
+.portfolio-filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--accent-color);
+  background-color: var(--tertiary-bg-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+/* --- OUR WORK --- */
+
+.ourwork {
+}
+.ourwork-title {
+}
+.ourworklist {
+}
+.ourwork-item {
+}
+.ourwork-link {
+}
+.ourwork-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+.ourwork-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.ourwork-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-title-color);
+  background-color: var(--accent-color);
 }
