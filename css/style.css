@@ -17,8 +17,9 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
 }
+
+/* --- DEFAULT --- */
 
 .list {
   list-style: none;
@@ -28,9 +29,41 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
-  text-decoration: underline;
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  border-radius: 4px;
+}
+
+.logo-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.subtitle-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.regular-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 .visually-hidden {
@@ -55,12 +88,6 @@ body {
 }
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
-  color: var(--primary-text-color);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.3;
-  letter-spacing: 0.03em;
 }
 
 .header-logo-accent {
@@ -70,11 +97,8 @@ body {
 /* Header Navigation */
 
 .header-link {
-  color: var(--title-text-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .header-link.link.link-current {
@@ -89,10 +113,6 @@ body {
 
 .header-contact-email,
 .header-contact-tel {
-  color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /* --- HERO --- */
@@ -102,8 +122,6 @@ body {
 }
 
 .hero-title {
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -113,17 +131,9 @@ body {
 }
 
 .hero-button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
   border: none;
-  border-radius: 4px;
 }
 
 /* --- Strategy --- */
@@ -134,23 +144,11 @@ body {
 }
 .stretegy-list {
 }
-.list {
-}
 .stretegy-item {
 }
 .stategy-item-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
 }
 .strategy-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 
 /* --- ABOUT --- */
@@ -158,7 +156,6 @@ body {
 .about {
 }
 .about-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -181,18 +178,8 @@ body {
 .team-list {
 }
 .team-member {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
 }
 .team-member-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 .team-item {
 }
@@ -204,12 +191,7 @@ body {
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
   color: var(--footer-title-color);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.3;
-  letter-spacing: 0.03em;
 }
 
 .footer-logo-accent {
@@ -217,10 +199,6 @@ body {
 }
 
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--footer-text-color);
 }
 
@@ -240,19 +218,9 @@ body {
 .portfolio-filter-item {
 }
 .portfolio-filter-button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
   color: var(--accent-color);
   background-color: var(--tertiary-bg-color);
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
 }
 
 /* --- OUR WORK --- */
@@ -261,32 +229,19 @@ body {
 }
 .ourwork-title {
 }
-.ourworklist {
+.ourwork-list {
 }
 .ourwork-item {
 }
 .ourwork-link {
 }
 .ourwork-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-text-color);
 }
 .ourwork-category {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 .ourwork-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--footer-title-color);
   background-color: var(--accent-color);
 }
